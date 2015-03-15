@@ -1,0 +1,947 @@
+/*
+* Copyright 2015 ₪ UnacceptableUse http://unacceptableuse.com
+*/
+.side p > [href="http://www.reddit.com/r/rapbattles/comments/2yerno/battle_of_the_week/"]:after {
+  content: "";
+  background: url(%%Screen-Shot-2015-02-28-at-2%%);
+  position: absolute;
+  top: 195px;
+  width: 303px;
+  height: 170px;
+  right: 9px;
+  clear: both;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* Setting the total width of the menu */
+.titlebox blockquote ul + blockquote {
+  display: none;
+}
+/*Setting the width of the individual menu headings */
+/*custom size for menu sections*/
+.titlebox blockquote ul :nth-of-type(1) {
+  /*FORUM FEATURES*/
+  width: 140px;
+}
+.titlebox blockquote ul :nth-of-type(2) {
+  /*DON'T FLOP SET THE STANDARD X*/
+  width: 220px;
+}
+.titlebox blockquote ul :nth-of-type(3) {
+  /*URL BORN LEGACY*/
+  width: 220px;
+}
+.titlebox blockquote ul :nth-of-type(4) {
+  /*KOTD BLACKOUT 4*/
+  width: 140px;
+}
+.titlebox blockquote ul :nth-of-type(5) {
+  /*UPCOMING EVENTS*/
+  width: 140px;
+}
+/*turns top quote in sidebar into menu container*/
+.titlebox blockquote:first-child {
+  border-left: none;
+  position: absolute;
+  z-index: 100;
+  top: 189px;
+  left: -10px;
+}
+/*turns first paragraph into menu title*/
+.titlebox blockquote:first-child p:first-child {
+  margin-top: 0px;
+  padding: 5px;
+  float: left;
+  font-size: 20px;
+  background: #ae352b;
+  border: 1px solid #b5b5b5;
+  font-weight: bold;
+  color: white;
+  cursor: default;
+}
+/*turns the lists into menus*/
+.titlebox blockquote ul {
+  float: right;
+  padding: 1px;
+  /* this adjusts the drop down color background */
+  background: #ae352b;
+  margin: 0px;
+  margin-top: 0px !important;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+/*hide and styles lists*/
+.titlebox blockquote ul li {
+  display: none;
+  padding: 2px;
+  text-align: center;
+}
+/*shows menu on hover*/
+.titlebox blockquote ul li:first-child,
+.titlebox blockquote ul:hover li {
+  display: block;
+  width: 140px;
+  transition: 0.3s;
+}
+.md ul {
+  list-style: disc outside none;
+}
+/*turns top list item into section header*/
+.titlebox blockquote li:first-child {
+  font-size: 12pt;
+  padding: 2px;
+  cursor: default;
+}
+/*styling menu items*/
+.titlebox blockquote:first-child ul li:hover {
+  /* adjust the highlighted color */
+  background: #fff;
+  width: 140px;
+  transition: 0.3s;
+}
+/* changes the text color while highlighted */
+.titlebox blockquote li a:hover {
+  color: #fff;
+  transition: 0.3s;
+}
+#header {
+  background: url(%%headerFull-02%%) left bottom no-repeat;
+  /* Was #222 */
+  background-color: #1b1b1b;
+  height: 194px;
+}
+#header-bottom-left {
+  position: absolute;
+  bottom: 0;
+}
+#header-img {
+  display: none;
+}
+#header-img.default-header {
+  display: none;
+}
+.stylesheet-customize-container {
+  width: 100%;
+}
+#subreddit_stylesheet {
+  display: block;
+  overflow: hidden;
+}
+.sheets {
+  margin: 0;
+}
+#stylesheet_contents {
+  font-family: Consolas, 'Lucida Console', 'Courier New', sans-serif;
+  /*Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;*/
+  padding: 5px;
+  background-color: #222;
+  color: #ace;
+  border: 2px solid #222;
+  height: 500px;
+  font-size: 13px;
+}
+body.res-nightmode #stylesheet_contents {
+  background-color: #111;
+  border-color: #111;
+  height: 500px;
+  font-size: 13px;
+}
+.side a[href="http://reddit.honestbleeps.com"] {
+  width: 300px;
+  height: 100px;
+  background: url(%%RES%%);
+  display: block;
+}
+.side {
+  padding-left: 10px;
+  padding-right: 4px;
+  margin-left: 0;
+  width: 304px;
+  margin-top: 32px;
+}
+.side .spacer:first-child {
+  margin-top: 155px;
+}
+.tabmenu li.selected a {
+  color: #333333;
+  background-color: #ffffff;
+  border: 1px solid #333333;
+  border-bottom: 1px solid #ffffff;
+  z-index: 100;
+}
+.tabmenu li.selected a:hover {
+  border: 1px solid #c1c1c1;
+}
+.titlebox {
+  font: normal 11px Helvetica, Arial, Verdana, sans-serif;
+  margin-top: 0px;
+  width: 100% !important;
+  padding: 10px;
+  border: 1px solid gray;
+}
+.titlebox form.leavemoderator-button {
+  display: none;
+}
+.titlebox a {
+  color: #24413a;
+}
+.titlebox .usertext .usertext-body p:last-child a {
+  line-height: 20px;
+}
+.titlebox .bottom {
+  border: 0;
+}
+.titlebox form.toggle {
+  background-color: transparent;
+}
+.titlebox .usertext {
+  margin: 15px 0;
+  line-height: 120%;
+  font-size: small;
+}
+.titlebox .usertext .md {
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+}
+.titlebox .usertext .md h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333333;
+}
+.titlebox .usertext .md > h1 {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  background-repeat: repeat-x;
+  background-position: top;
+  color: white;
+  padding: 5px 10px;
+  padding-left: 20px;
+  padding-right: 0;
+  margin-right: 13px;
+  margin-left: -18px;
+  border-bottom: 1px solid #074075;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  z-index: 100;
+}
+.titlebox .usertext .md h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: black;
+}
+.titlebox .usertext .md > h1 {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: #FFF;
+  padding: 5px 10px;
+  padding-left: 20px;
+  padding-right: 0;
+  margin-right: 13px;
+  margin-left: -18px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  z-index: 100;
+}
+.titlebox .usertext .md > h1:after {
+  display: block;
+  content: "";
+  /* DIAGONAL PIECE ON LEFT SIDE */
+  border-color: transparent gray transparent transparent;
+  border-style: solid;
+  border-width: 15px;
+  height: 0px;
+  width: 0px;
+  position: absolute;
+  z-index: -1;
+  margin-left: -35px;
+  margin-top: -10px;
+}
+/* Big red strikethrough powered liks on the sidebar */
+.titlebox del {
+  background: #ae352b;
+  color: #fff;
+  padding: 10px;
+  border: 3px solid #000;
+  position: relative;
+  display: block;
+  width: 90%;
+  text-align: center;
+  font-size: 2em;
+  text-decoration: none;
+}
+.titlebox del:hover {
+  border: 3px solid #333333;
+  text-decoration: none;
+  background-color: #fff;
+  color: black;
+  transition: 0.3s;
+}
+.md h1 {
+  font-size: medium;
+  font-weight: bold;
+  color: #FFF !important;
+  margin-bottom: 5px;
+  border: 0;
+}
+.md h2,
+.md h3,
+.md h4,
+.md h5 {
+  font-size: small;
+  font-weight: bold;
+  color: black !important;
+  margin-bottom: 5px;
+  border: 0;
+}
+.pagename a {
+  color: #FFFFFF;
+  /*Change subreddit name to a different color*/
+  font-size: 25px;
+  /*Font size of it*/
+}
+.pagename a:hover {
+  color: #000;
+  /* for when hovering over it*/
+  text-decoration: none !important;
+}
+.sidebox.submit-link .morelink::before {
+  display: block;
+  clear: none;
+  content: "Submit a Link";
+  font-size: 95%;
+}
+.sidebox.submit-text .morelink::before {
+  display: block;
+  clear: none;
+  content: "Submit a Self Post";
+  font-size: 90%;
+}
+.sidebox.submit .morelink a {
+  position: absolute;
+  top: 0;
+  padding-left: 1000px;
+  font-size: 0px;
+  text-align: right;
+  color: #bf3d2b;
+}
+.sidebox.submit.submit-link {
+  width: 150px;
+}
+.sidebox.submit.submit-text {
+  margin-top: -42px;
+  margin-left: 153px;
+}
+.sidebox.create {
+  display: none;
+}
+.sidebox.submit.disabled {
+  display: none;
+}
+.morelink {
+  font-weight: normal;
+  letter-spacing: 0;
+  background: #ae352b;
+  border: none;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 1px;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  color: #FFF;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+  width: 145px;
+}
+.morelink:hover {
+  background: #333333;
+  background-color: #333333;
+  transition: 0.3s;
+}
+.morelink .nub {
+  display: none;
+}
+.morelink a,
+.morelink a:hover {
+  color: black;
+}
+.titlebox .word {
+  display: none;
+}
+.titlebox .number:after {
+  content: " Subscribers";
+}
+.titlebox .users-online span.number:after {
+  content: " Subscribers";
+}
+.stickied {
+  border: 2px solid #333333 !important;
+  margin-right: 320px;
+}
+.stickied .title {
+  color: #333333 !important;
+  font-weight: bold;
+}
+.stickied-tagline {
+  color: #333333!important;
+}
+.stickied .score {
+  display: none !important;
+}
+.stickied .score.likes {
+  display: none !important;
+}
+.stickied .score.dislikes {
+  display: none !important;
+}
+.stickied .arrow.down {
+  display: none !important;
+}
+.arrow.upmod {
+  background-image: url(%%arrows%%);
+  background-position: 2px -48px;
+  width: 18px;
+  height: 19px;
+}
+.arrow.downmod {
+  background-image: url(%%arrows%%);
+  background-position: 2px 0px;
+  width: 18px;
+  height: 19px;
+}
+.arrow.up {
+  background-image: url(%%arrows%%);
+  background-position: 2px -72px;
+  width: 18px;
+  height: 19px;
+}
+.arrow.down {
+  background-image: url(%%arrows%%);
+  background-position: 2px -24px;
+  width: 18px;
+  height: 19px;
+}
+.arrow.down,
+.comment .arrow.down {
+  visibility: hidden;
+  display: none ;
+}
+.side .md h4:nth-of-type(1) {
+  position: absolute;
+  display: block;
+  top: 190px;
+  left: 0px;
+  color: #fff !important;
+  background-color: #1b1b1b;
+  font-size: 14px;
+  text-align: center;
+  margin: 15px;
+  border-radius: 8px;
+  width: 700px;
+  height: 30px;
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-position: left;
+  clear: both;
+  text-align: center !important;
+}
+/* move announcements*/
+.content {
+  margin-top: 60px;
+}
+/* Announcement link colors */
+.side .md h4:nth-of-type(1) a {
+  color: #d42929;
+}
+.side .usertext blockquote a {
+  color: #000000;
+}
+.side .usertext blockquote a:hover {
+  color: #666666;
+}
+.side .usertext blockquote:nth-of-type(2) {
+  top: 270px;
+}
+.side .usertext blockquote:nth-of-type(3) {
+  top: 300px;
+}
+.side .usertext blockquote:nth-of-type(4) {
+  top: 330px;
+}
+.entry .buttons a[onclick*="reply"] {
+  color: #458B00!important;
+  font-weight: bold!important;
+  font-size: 13px!important;
+}
+.titlebox .usertext-body {
+  background: url(%%guidelines%%) no-repeat;
+  padding-top: 260px !important;
+  border-top: 1px solid #5f5f5f;
+}
+.tabmenu li.selected a {
+  position: relative;
+  left: 100px;
+  background-color: #fff!important;
+}
+.tabmenu li a {
+  position: relative;
+  left: 100px;
+  background-color: #777!important;
+}
+.tabmenu li a {
+  text-decoration: none;
+  color: #fff;
+}
+.RESshortcutside {
+  margin-right: 5px;
+  margin-top: 2px;
+  color: black !important;
+  background-color: #E0E0E0 ;
+  background-image: none !important;
+  cursor: pointer;
+  text-align: center;
+  width: 68px;
+  font-weight: bold;
+  font-size: 10px;
+  border: 1px solid black;
+  padding: 1px 6px;
+  border-radius: 3px;
+}
+.subButtons RESshortcutside,
+.subButtons .RESDashboardToggle {
+  background: #E0E0E0;
+  color: black;
+}
+.subButtons RESshortcutside:hover,
+.subButtons .RESDashboardToggle:hover {
+  background: #E0E0E0 ;
+}
+.subButtons RESshortcutside.remove,
+.subButtons .RESDashboardToggle.remove {
+  background: #E0E0E0 ;
+}
+/* comment hover */
+.res .RES-keyNav-activeElement,
+.res .commentarea .RES-keyNav-activeElement .md,
+.res .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
+  background-color: #E0E0E0  !important;
+}
+.res-navTop #header-bottom-right {
+  top: auto;
+  background-color: #E0E0E0 ;
+}
+.flairselector .customizer {
+  display: none !important;
+}
+.flair {
+  border: none;
+  padding: 0;
+  background: url(%%spritesheet%%) no-repeat 0 5em;
+}
+.flair-1Outsflair {
+  background-position: 0 0;
+  min-width: 34px;
+  height: 34px;
+  text-indent: 37px;
+}
+.flair-775flair {
+  background-position: 0 -84px;
+  width: 31px;
+  height: 25px;
+}
+.flair-AHATflair {
+  background-position: 0 -159px;
+  width: 25px;
+  height: 25px;
+}
+.flair-BARSflair {
+  background-position: 0 -234px;
+  width: 29px;
+  height: 25px;
+}
+.flair-BeBelligerentflair {
+  background-position: 0 -309px;
+  width: 20px;
+  height: 25px;
+}
+.flair-BlockCityTVflair {
+  background-position: 0 -384px;
+  width: 55px;
+  height: 25px;
+}
+.flair-BloodSportBattleLeagueflair {
+  background-position: 0 -459px;
+  width: 45px;
+  height: 25px;
+}
+.flair-BodyBagBattlesflair {
+  background-position: 0 -534px;
+  width: 53px;
+  height: 25px;
+}
+.flair-BorderCityBattleClubflair {
+  background-position: 0 -609px;
+  width: 44px;
+  height: 25px;
+}
+.flair-BrooklynMicClubflair {
+  background-position: 0 -684px;
+  width: 42px;
+  height: 34px;
+}
+.flair-CBLflair {
+  background-position: 0 -768px;
+  width: 27px;
+  height: 25px;
+}
+.flair-CoRapflair {
+  background-position: 0 -843px;
+  width: 69px;
+  height: 25px;
+}
+.flair-DailyDuelsflair {
+  background-position: 0 -918px;
+  width: 35px;
+  height: 25px;
+}
+.flair-DraftLeagueflair {
+  background-position: 0 -993px;
+  width: 30px;
+  height: 34px;
+}
+.flair-DuelsOfficialflair {
+  background-position: 0 -1077px;
+  width: 77px;
+  height: 25px;
+}
+.flair-FlipTheScriptflair {
+  background-position: 0 -1152px;
+  width: 43px;
+  height: 25px;
+}
+.flair-GotBarztvflair {
+  background-position: 0 -1227px;
+  width: 70px;
+  height: 25px;
+}
+.flair-GotBeefflair {
+  background-position: 0 -1302px;
+  width: 35px;
+  height: 25px;
+}
+.flair-HeaviiTVflair {
+  background-position: 0 -1377px;
+  width: 80px;
+  height: 25px;
+}
+.flair-KOTDflair {
+  background-position: 0 -1452px;
+  width: 90px;
+  height: 27px;
+}
+.flair-LABattlegroundzflair {
+  background-position: 0 -1529px;
+  width: 30px;
+  height: 25px;
+}
+.flair-LArapleagueflair {
+  background-position: 0 -1604px;
+  width: 16px;
+  height: 25px;
+}
+.flair-LMLflair {
+  background-position: 0 -1679px;
+  width: 25px;
+  height: 25px;
+}
+.flair-MABAflair {
+  background-position: 0 -1754px;
+  width: 37px;
+  height: 25px;
+}
+.flair-MCsLeagueflair {
+  background-position: 0 -1829px;
+  width: 25px;
+  height: 25px;
+}
+.flair-MYflair {
+  background-position: 0 -1904px;
+  width: 26px;
+  height: 34px;
+}
+.flair-MeleeTVflair {
+  background-position: -140px 0;
+  width: 95px;
+  height: 22px;
+}
+.flair-MicMastersflair {
+  background-position: -140px -72px;
+  width: 25px;
+  height: 25px;
+}
+.flair-NoCoastflair {
+  background-position: -140px -147px;
+  width: 42px;
+  height: 25px;
+}
+.flair-PerthCityBattlesFlair {
+  background-position: -140px -222px;
+  width: 25px;
+  height: 25px;
+}
+.flair-PitFightsflair {
+  background-position: -140px -297px;
+  width: 65px;
+  height: 25px;
+}
+.flair-PunchoutBattlesflair {
+  background-position: -140px -372px;
+  width: 27px;
+  height: 25px;
+}
+.flair-QOTRflair {
+  background-position: -140px -447px;
+  width: 37px;
+  height: 25px;
+}
+.flair-RapSlamBattlesflair {
+  background-position: -140px -522px;
+  width: 33px;
+  height: 25px;
+}
+.flair-RealTalkflair {
+  background-position: -140px -597px;
+  width: 40px;
+  height: 26px;
+}
+.flair-SchemeStreetflair {
+  background-position: -140px -673px;
+  width: 64px;
+  height: 25px;
+}
+.flair-Scrambles4Moneyflair {
+  background-position: -140px -748px;
+  width: 52px;
+  height: 25px;
+}
+.flair-SharkTankflair {
+  background-position: -140px -823px;
+  width: 21px;
+  height: 25px;
+}
+.flair-StreetArenaflair {
+  background-position: -140px -898px;
+  width: 77px;
+  height: 25px;
+}
+.flair-StreetStatusflair {
+  background-position: -140px -973px;
+  width: 40px;
+  height: 38px;
+}
+.flair-StreetWarsflair {
+  background-position: -140px -1061px;
+  width: 52px;
+  height: 25px;
+}
+.flair-SupaNovaflair {
+  background-position: -140px -1136px;
+  width: 75px;
+  height: 25px;
+}
+.flair-TexasBattleLeagueflair {
+  background-position: -140px -1211px;
+  width: 73px;
+  height: 25px;
+}
+.flair-UltimateRapLeagueflair {
+  background-position: -140px -1286px;
+  width: 60px;
+  height: 25px;
+}
+.flair-WeGoHardTVflair {
+  background-position: -140px -1361px;
+  width: 36px;
+  height: 25px;
+}
+.flair-WestTexasBattleLeagueflair {
+  background-position: -140px -1436px;
+  width: 61px;
+  height: 25px;
+}
+.flair-ablflair {
+  background-position: -140px -1511px;
+  width: 96px;
+  height: 27px;
+}
+.flair-angrylocalsflair {
+  background-position: -140px -1588px;
+  width: 49px;
+  height: 25px;
+}
+.flair-artofwarbattleleagueflair {
+  background-position: -140px -1663px;
+  width: 54px;
+  height: 25px;
+}
+.flair-barzNbrastrapzflair {
+  background-position: -140px -1738px;
+  width: 25px;
+  height: 23px;
+}
+.flair-basementalityflair {
+  background-position: -140px -1811px;
+  width: 113px;
+  height: 26px;
+}
+.flair-dontflopflair {
+  background-position: -140px -1887px;
+  width: 47px;
+  height: 25px;
+}
+.flair-dope16comflair {
+  background-position: -303px 0;
+  width: 85px;
+  height: 25px;
+}
+.flair-flipop1flair {
+  background-position: -303px -75px;
+  width: 50px;
+  height: 25px;
+}
+.flair-gtnflair {
+  background-position: -303px -150px;
+  width: 90px;
+  height: 25px;
+}
+.flair-ibattleflair {
+  background-position: -303px -225px;
+  width: 35px;
+  height: 25px;
+}
+.flair-ozizflair {
+  background-position: -303px -300px;
+  width: 52px;
+  height: 25px;
+}
+.flair-poisonpenflair {
+  background-position: -303px -375px;
+  width: 53px;
+  height: 25px;
+}
+.flair-showdownflair {
+  background-position: -303px -450px;
+  width: 22px;
+  height: 25px;
+}
+.flair-uwbattleflair {
+  background-position: -303px -525px;
+  width: 39px;
+  height: 25px;
+}
+.flair-voiceboxbflair {
+  background-position: -303px -600px;
+  width: 47px;
+  height: 25px;
+}
+/* Mod flair */
+.thing .tagline .author.moderator {
+  background-color: #c91616 !important;
+}
+.linkflairlabel {
+  position: absolute !important;
+  left: 10px !important;
+  display: inline-block !important;
+  height: 50px;
+  width: 10px;
+  color: transparent;
+  border: none;
+}
+.linkflairlabel:hover {
+  background-color: transparent !important;
+  background: url(%%linkflairs%%);
+  color: #fff;
+  text-indent: 15px;
+  font-size: 1.2em;
+  width: 300px !important;
+  transition-duration: 0.3s;
+  transition-property: width, font-size, text-indent;
+}
+div.linkflair-rapbattle .linkflairlabel {
+  background-color: #ae352b;
+}
+div.linkflair-discussion .linkflairlabel:hover {
+  background-position: 0px 0px;
+}
+div.linkflair-discussion .linkflairlabel:hover {
+  background-position: 0px -57px;
+}
+div.linkflair-discussion .linkflairlabel {
+  background-color: #7f7f7f;
+}
+div.linkflair-announcement .linkflairlabel {
+  background-color: #000000;
+}
+div.linkflair-announcement .linkflairlabel:hover {
+  background-position: 0px -114px;
+}
+div.linkflair-media .linkflairlabel {
+  background-color: #660000;
+}
+div.linkflair-media .linkflairlabel:hover {
+  background-position: 0px -172px;
+}
+span.rank {
+  color: transparent !important;
+}
+a[href$="/spoiler"] {
+  background: #000!important;
+  color: #000!important;
+  border-bottom: 1px #369 dashed!important;
+}
+a[href$="/spoiler"]:hover {
+  color: #fff!important;
+}
+#userbarToggle {
+  min-height: 22px;
+  position: absolute;
+  top: 0;
+  left: -5px;
+  width: 16px;
+  padding-right: 3px;
+  height: 100%;
+  font-size: 15px;
+  border-radius: 4px 0;
+  color: #E0E0E0 ;
+  display: inline-block;
+  background-color: #E0E0E0 !important;
+  cursor: pointer;
+  text-align: right;
+  line-height: 24px;
+}
+.submit-page #text-desc {
+  background: url(%%submitpagereminder%%) no-repeat;
+  padding-top: 85px;
+  border: none;
+}
+/* sumbit page reminder */
+.submit-page #link-desc {
+  background: url(%%submitpagereminder%%) no-repeat;
+  padding-top: 85px;
+  border: none;
+}

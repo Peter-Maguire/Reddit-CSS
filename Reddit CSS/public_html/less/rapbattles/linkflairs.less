@@ -1,0 +1,37 @@
+
+.linkflairlabel{
+  position: absolute !important;
+  left: 10px !important;
+  display: inline-block !important;
+  height: 50px;
+  width: 10px;
+  color: transparent;
+  border: none;
+   
+  &:hover{
+    background-color: transparent !important;
+    background: @linkflair-image;
+    color: #fff;
+    text-indent: 15px;
+    font-size: 1.2em;
+    width: 300px !important;
+    transition-duration: @theme-anim-transition;
+    transition-property: width, font-size, text-indent;
+  }
+}
+
+div.linkflair-rapbattle .linkflairlabel{background-color: #ae352b;}
+div.linkflair-discussion .linkflairlabel:hover{background-position: 0px 0px;}
+
+div.linkflair-discussion .linkflairlabel:hover{background-position: 0px -57px;}
+div.linkflair-discussion .linkflairlabel{background-color: #7f7f7f;}
+
+div.linkflair-announcement .linkflairlabel{background-color: #000000;}
+div.linkflair-announcement .linkflairlabel:hover{background-position: 0px -114px;}
+
+div.linkflair-media .linkflairlabel{background-color: #660000;}
+div.linkflair-media .linkflairlabel:hover{background-position: 0px -172px;}
+
+span.rank{color: transparent !important;} /*Hide the rank at the side*/
+
+

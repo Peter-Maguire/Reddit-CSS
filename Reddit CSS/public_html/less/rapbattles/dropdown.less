@@ -1,0 +1,107 @@
+
+
+/* Setting the total width of the menu */
+.titlebox blockquote ul + blockquote { display: none; }
+
+/*Setting the width of the individual menu headings */
+/*custom size for menu sections*/
+.titlebox blockquote ul{
+    :nth-of-type(1) {                       /*FORUM FEATURES*/
+        width: @dropdown-standard-width; 
+    }
+    
+    :nth-of-type(2) {                       /*DON'T FLOP SET THE STANDARD X*/
+        width: @dropdown-big-width; 
+    }
+    
+    :nth-of-type(3) {                       /*URL BORN LEGACY*/
+        width: @dropdown-big-width; 
+    }
+    
+    :nth-of-type(4) {                       /*KOTD BLACKOUT 4*/
+        width: @dropdown-standard-width; 
+    }
+    
+    :nth-of-type(5) {                       /*UPCOMING EVENTS*/
+        width: @dropdown-standard-width;
+    }
+    
+}
+/*turns top quote in sidebar into menu container*/
+.titlebox blockquote:first-child {
+    border-left: none;
+    position: absolute;
+    z-index: 100;
+    top: 189px;
+    left: -10px
+}
+
+/*turns first paragraph into menu title*/
+.titlebox blockquote:first-child p:first-child {
+    margin-top: 0px;
+    padding: 5px;
+    float: left;
+    font-size: 20px;
+    background: @theme-global-red;
+    border: 1px solid @theme-global-grey;
+    font-weight:bold;
+    color: white;
+    cursor:default;
+}
+
+/*turns the lists into menus*/
+.titlebox blockquote ul {
+    float: right;
+    padding: 1px;
+
+    /* this adjusts the drop down color background */
+    background: @theme-global-red;
+    margin:0px;
+    margin-top: 0px !important;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    -webkit-border-bottom-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+/*hide and styles lists*/
+.titlebox blockquote ul li {
+    display: none;
+    padding:2px;
+    text-align:center;
+}
+
+/*shows menu on hover*/
+.titlebox blockquote ul li:first-child, .titlebox blockquote ul:hover li {
+    display: block;
+    width: @dropdown-standard-width;
+    transition: @theme-anim-transition;
+}
+
+.md ul {list-style: disc outside none;}
+
+/*turns top list item into section header*/
+.titlebox blockquote li:first-child {
+    font-size: 12pt;
+    padding: 2px;
+    cursor:default;
+}
+
+/*styling menu items*/
+.titlebox blockquote:first-child ul li:hover {
+    /* adjust the highlighted color */
+    background: #fff;
+    width: @dropdown-standard-width;
+    transition: @theme-anim-transition;
+}
+
+/* changes the text color while highlighted */
+.titlebox blockquote li a:hover {
+    color: #fff;
+    transition: @theme-anim-transition;
+}
+

@@ -1,0 +1,167 @@
+.side {
+    padding-left:10px;
+    padding-right:4px;
+    margin-left:0;
+    width:304px;
+    margin-top: 32px;
+    
+    .spacer:first-child{
+        margin-top: 155px;
+    }
+}
+
+
+.tabmenu li.selected{
+    a {
+        color: @tabmenu-link-text;
+        background-color: @tabmenu-link-background;
+        border: @tabmenu-link-border;
+        border-bottom: @tabmenu-link-border-bottom;
+        z-index: 100;
+    }
+    
+    a:hover{
+        border: @tabmenu-link-border-hover;
+    }
+}
+
+.titlebox {
+    font: @titlebox-font;
+    margin-top: 0px;
+    width: 100% !important;
+    padding: 10px;
+    border: 1px solid gray;
+        
+    form.leavemoderator-button{
+         display: none
+    }  
+    
+    a{
+        color: @titlebox-link-color;
+    }
+    
+    .usertext .usertext-body p:last-child a{
+        line-height:20px
+    }
+    
+    .bottom{
+        border: 0;
+    }
+    
+    form.toggle{
+        background-color: transparent;
+    }
+    
+    .usertext {
+        margin: 15px 0;
+        line-height: 120%;
+        font-size: small
+    }
+    
+    .usertext .md {
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        h2{
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333333
+        }
+    }
+    
+    .usertext .md > h1 {
+        border: 0;
+        margin: 0;
+        padding: 0;
+        background-color: #333333;
+        background-repeat: repeat-x;
+        background-position: top;
+        color: white;
+        padding: 5px 10px;
+        padding-left: 20px;
+        padding-right: 0;
+        margin-right: 13px;
+        margin-left: -18px;
+        border-bottom: 1px solid #074075;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        z-index: 100
+    }
+    
+    .usertext .md h2 {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: black;
+    }
+    
+    .usertext .md > h1 {
+        border: 0;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        color: #FFF;
+        padding: 5px 10px;
+        padding-left: 20px;
+        padding-right: 0;
+        margin-right: 13px;
+        margin-left: -18px;
+        border-bottom: 1px solid gray;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        z-index: 100
+    }
+    
+    .usertext .md > h1:after {
+        display: block;
+        content: "";
+        /* DIAGONAL PIECE ON LEFT SIDE */
+        border-color: transparent gray transparent transparent;
+        border-style: solid;
+        border-width: 15px;
+        height: 0px;
+        width: 0px;
+        position: absolute;
+        z-index: -1;
+        margin-left: -35px;
+        margin-top: -10px
+    }
+
+}
+
+/* Big red strikethrough powered liks on the sidebar */
+.titlebox del{
+    background: @theme-global-red;
+    color: #fff;
+    padding: 10px;
+    border: 3px solid #000;
+    position: relative;
+    display: block;
+    width: 90%;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    
+    &:hover{
+        border: 3px solid @theme-global-dark;
+        text-decoration: none;
+        background-color: #fff;
+        color: black;
+        transition: @theme-anim-transition;
+    }
+}
+
+.md h1 {
+    font-size: medium;
+    font-weight: bold;
+    color: #FFF !important;
+    margin-bottom: 5px;
+    border: 0
+}
+.md h2, .md h3, .md h4, .md h5 {
+    font-size: small;
+    font-weight: bold;
+    color: black !important;
+    margin-bottom: 5px;
+    border: 0
+}
+
