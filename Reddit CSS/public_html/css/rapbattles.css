@@ -906,8 +906,13 @@ div.linkflair-media .linkflairlabel {
 div.linkflair-media .linkflairlabel:hover {
   background-position: 0px -172px;
 }
+/*Hide the rank at the side*/
 span.rank {
   color: transparent !important;
+}
+/*Fix flairselector box*/
+.flairsample-left {
+  padding-bottom: 40px;
 }
 a[href$="/spoiler"] {
   background: #000!important;
