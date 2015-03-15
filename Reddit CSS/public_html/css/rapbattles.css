@@ -881,6 +881,7 @@ body.res-nightmode #stylesheet_contents {
   width: 300px !important;
   transition-duration: 0.3s;
   transition-property: width, font-size, text-indent;
+  overflow: visible;
 }
 div.linkflair-rapbattle .linkflairlabel {
   background-color: #ae352b;
