@@ -448,6 +448,8 @@ body.res-nightmode #stylesheet_contents {
   left: 0px;
   color: #fff !important;
   background-color: #1b1b1b;
+  background-repeat: no-repeat;
+  background-position: left;
   font-size: 14px;
   text-align: center;
   margin: 15px;
@@ -455,8 +457,6 @@ body.res-nightmode #stylesheet_contents {
   width: 700px;
   height: 30px;
   padding: 10px;
-  background-repeat: no-repeat;
-  background-position: left;
   clear: both;
   text-align: center !important;
 }
