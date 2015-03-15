@@ -882,6 +882,8 @@ body.res-nightmode #stylesheet_contents {
   transition-duration: 0.3s;
   transition-property: width, font-size, text-indent;
   overflow: visible;
+  font-weight: normal !important;
+  /*Overrides the normal bold of a sticky post*/
 }
 div.linkflair-rapbattle .linkflairlabel {
   background-color: #ae352b;
